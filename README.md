@@ -49,8 +49,10 @@ Once the API is running, you can run the scraper to extract data using the provi
   ```
 
 ## Planned Improvements
-- Turn into an R package for ease of use
-- Host API non-locally
-- Explore parallelization
-- Fine tuning output and output format (currently a DF for testing purposes)
+- Develop an R package to enhance usability.
+- Deploy the API on a remote server for broader access.
+- Investigate parallel processing to improve performance.
+- Refine the output format for better usability (currently structured as a DataFrame for testing).
+- Implement additional testing and create a comprehensive testing suite.
+
 
