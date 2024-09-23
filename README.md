@@ -40,8 +40,9 @@ To start the API, run the following script:
 Once the API is running, you can run the scraper to extract data using the provided script:
 
 1. Open `scrape_naomi.R` and configure the parameters (such as `country`, `indicator`, `age_group`, and `sex`) for the scraping task.
+   *Note*: Currently, sample parameters are set for testing purposes.
 
-2. Run the `scrape_naomi.R` script:
+3. Run the `scrape_naomi.R` script:
   ```bash
   Rscript scrape_naomi.R
   ```
