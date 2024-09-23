@@ -13,10 +13,10 @@
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone git@github.com:atowey-uchi/NAOMI-ScrapR.git
-   cd NAOMI-ScrapR
-   ```
+```bash
+git clone git@github.com:atowey-uchi/NAOMI-ScrapR.git
+cd NAOMI-ScrapR
+```
 2. **Install R dependencies:**
 
 Before running the scripts, make sure you have the necessary R packages installed. You can do this by executing the following command in your R console:
