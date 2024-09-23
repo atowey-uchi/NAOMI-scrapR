@@ -8,6 +8,7 @@
 - [Usage](#usage)
   - [Running the API](#running-the-api)
   - [Running the Scraper](#running-the-scraper)
+- [Planned Improvements](#planned-improvements)
 
 ## Installation
 
@@ -46,4 +47,10 @@ Once the API is running, you can run the scraper to extract data using the provi
   ```bash
   Rscript scrape_naomi.R
   ```
+
+## Planned Improvements
+- Turn into an R package for ease of use
+- Host API non-locally
+- Explore parallelization
+- Fine tuning output and output format (currently a DF for testing purposes)
 
