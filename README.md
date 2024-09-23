@@ -19,20 +19,20 @@
    ```
 2. **Install R dependencies:**
 
-   Before running the scripts, make sure you have the necessary R packages installed. You can do this by executing the following command in your R console:
+Before running the scripts, make sure you have the necessary R packages installed. You can do this by executing the following command in your R console:
 
-   ```r
-   install.packages(c("httr", "dplyr", "jsonlite", "purrr"))
-   ```
+  ```r
+  install.packages(c("httr", "dplyr", "jsonlite", "purrr"))
+  ```
 ## Usage
 
 ### Running the API
 
 To start the API, run the following script:
 
-```bash
-Rscript start_api.R
-```
+  ```bash
+  Rscript start_api.R
+  ```
 
 2. This will start a local API that listens for HTTP requests on http://127.0.0.1:8000/scrape.
 
@@ -42,7 +42,7 @@ Once the API is running, you can run the scraper to extract data using the provi
 1. Open `scrape_naomi.R` and configure the parameters (such as `country`, `indicator`, `age_group`, and `sex`) for the scraping task.
 
 2. Run the `scrape_naomi.R` script:
-   ```bash
-   Rscript scrape_naomi.R
-   ```
+  ```bash
+  Rscript scrape_naomi.R
+  ```
 
