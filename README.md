@@ -1,6 +1,6 @@
-# NAOMI-ScrapR
+# NAOMI scrapR
 
-**NAOMI-ScrapR** is a web scraping tool designed to extract data from the NAOMI Spectrum website. It consists of two components: an API to handle scraping requests and a script that scrapes data based on specified parameters. Currently, the API runs locally.
+**NAOMI scrapR** is a web scraping tool designed to extract data from the NAOMI Spectrum website. It consists of two components: an API to handle scraping requests and a script that scrapes data based on specified parameters. Currently, the API runs locally.
 
 ## Table of Contents
 
@@ -54,5 +54,6 @@ Once the API is running, you can run the scraper to extract data using the provi
 - Investigate parallel processing to improve performance.
 - Refine the output format for better usability (currently structured as a DataFrame for testing).
 - Implement additional testing and create a comprehensive testing suite.
+- Handle "There is no data available for the selected report." cases for certain indicators.
 
 
