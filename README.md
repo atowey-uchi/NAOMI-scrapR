@@ -54,5 +54,6 @@ Once the API is running, you can run the scraper to extract data using the provi
 - Investigate parallel processing to improve performance.
 - Refine the output format for better usability (currently structured as a DataFrame for testing).
 - Implement additional testing and create a comprehensive testing suite.
+- Handle "There is no data available for the selected report." cases for certain indicators.
 
 
