@@ -18,7 +18,7 @@ initialize_driver <- function() {
   # Set Chrome options
   chrome_options <- list(
     chromeOptions = list(
-      args = c('--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage')
+      args = c('--headless', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage')
     )
   )
 
