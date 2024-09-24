@@ -1,6 +1,6 @@
 # NAOMI scrapR
 
-**NAOMI scrapR** is a web scraping tool designed to extract data from the NAOMI Spectrum website. It consists of two components: an API to handle scraping requests and a script that scrapes data based on specified parameters. Currently, the API runs locally.
+**NAOMI scrapR** is a web scraping tool designed to extract HIV sub-national estimate data from the [UNAIDS NAOMI Spectrum](https://naomi-spectrum.unaids.org/) website. It consists of an API to handle scraping requests and a script that scrapes data based on specified parameters. Currently, the API runs locally.
 
 ## Table of Contents
 
